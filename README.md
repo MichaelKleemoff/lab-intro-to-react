@@ -28,7 +28,7 @@ Edit multiple JavaScript files in this lab as you get the hang of creating and u
 
 You will be building a static React Application that will show some blog posts and user information. It should look similar to the image below. Note: this view has been lightly styled to help provide clarity between components, you do not need to style this app the same way.
 
-![ProfilePage](./assets/ProfilePage.png)
+![ProfilePage](./src/assets/ProfilePage.png)
 
 Rather than building on large HTML file, you will break up this view into multiple React components. You will create each component in its own file, export it, then import it into `App.js`, then you will structure the components to match the hierarchy listed below.
 
