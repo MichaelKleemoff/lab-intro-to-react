@@ -38,6 +38,14 @@ a {
 	margin-right: 15px;
 }
 
+/* Main */
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 10px;
+	padding: 15px;
+}
+
 /* UserProfile */
 article {
 	display: flex;
@@ -67,4 +75,82 @@ article {
 	gap: 10px;
 	margin-left: 1.2em;
 	margin-top: 10px;
+}
+
+/* Posts */
+.posts,
+.contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: space-between;
+	border: 2px solid coral;
+	margin: 1.4em;
+	padding: 30px;
+	gap: 8px;
+}
+
+.posts {
+	width: 60vw;
+}
+
+.contacts {
+	width: 30vw;
+}
+
+.posts h3,
+.contacts h3 {
+	text-align: center;
+	padding: 15px;
+}
+
+.post {
+	border: 2px solid coral;
+	margin: 0.8em;
+	padding: 0.8em;
+}
+
+.post h4 {
+	margin-bottom: 10px;
+}
+
+/* Contacts */
+.contacts {
+	border: 2px solid coral;
+}
+
+.contacts h3 {
+	text-align: center;
+}
+
+/* Contact User Card */
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 15px;
+	border: 2px solid coral;
+	margin: 1.1em;
+}
+
+.card img {
+	height: 100%;
+}
+
+.card-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: space-evenly;
+	gap: 10px;
+	margin-left: 1.2em;
+	margin-top: 10px;
+}
+
+.card-description h4 {
+	font-size: 1.1em;
+}
+
+.card-description h5 {
+	font-size: 0.9em;
 }
