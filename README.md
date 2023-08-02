@@ -38,12 +38,12 @@ Connect all of the components inside of the `Components/` directory so that each
 
 Your application should have the following component structure:
 
-![components tree](./assets/component_tree.png)
+![components tree](./src/assets/component_tree.png)
 
 The component tree above can also be shown as a list:
 
-![components list](./assets/components.png)
+![components list](./src/assets/components.png)
 
 If you have time, build out the page to be more detailed and styled, like the following mockup image.
 
-![ProfilePage](./assets/ProfilePage.png)
+![ProfilePage](./src/assets/ProfilePage.png)
