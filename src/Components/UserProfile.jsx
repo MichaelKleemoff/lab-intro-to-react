@@ -2,7 +2,7 @@ export default function UserProfile() {
 	return (
 		<article>
 			<section id='profile-img'>
-				<img src='../../public/jordan-walke.jpeg' alt='profile image' />
+				<img src='../../jordan-walke.jpeg' alt='profile image' />
 			</section>
 			<section id='profile-description'>
 				<h2>Jordan Walke</h2>
